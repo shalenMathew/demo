@@ -10,6 +10,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         demoAccount()
+        demoAccount2()
+    }
+
+    private fun demoAccount2() {
+        Log.d("TAG","Hello2")
     }
 
     private fun demoAccount() {
