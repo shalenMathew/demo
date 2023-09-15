@@ -9,10 +9,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        demoAccount()
+
     }
 
     private fun demoAccount() {
-        Log.d("TAG","Hello")
+
     }
 }
